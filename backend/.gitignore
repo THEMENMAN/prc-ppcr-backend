@@ -1,0 +1,6 @@
+node_modules/
+.env
+ppcr.db
+*.db-shm
+*.db-wa
+*.db-wal
