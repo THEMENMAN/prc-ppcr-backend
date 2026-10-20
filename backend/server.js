@@ -101,7 +101,7 @@ app.get('/api/network', (req, res) => {
 // ============================================================
 // STATIC FILES
 // ============================================================
-app.use('/admin', express.static(path.join(__dirname, '..', 'admin')));
+app.use('/admin', express.static(path.join(__dirname, 'admin')));
 app.use(express.static(path.join(__dirname, '..', 'frontend')));
 
 // ============================================================
